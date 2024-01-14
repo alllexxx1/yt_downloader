@@ -14,7 +14,7 @@ def tmp_directory(tmp_path):
     "formatter",
     ["mp4", "mp3"],
 )
-def test_download_mp4(tmp_directory, formatter):
+def test_download(tmp_directory, formatter):
     url = "https://www.youtube.com/watch?v=R9aMV8QIEB0"
     directory_path = tmp_directory / "test_video"
     formatter = formatter
