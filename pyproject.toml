@@ -13,7 +13,7 @@ pysimplegui = "^4.60.5"
 
 [tool.poetry.scripts]
 download = "yt_downloader.scripts.download:main"
-gui_download = "yt_downloader.scripts.gui_download:main"
+gui-download = "yt_downloader.scripts.gui_download:main"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.4"
