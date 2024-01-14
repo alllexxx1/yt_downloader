@@ -5,16 +5,21 @@ description = ""
 authors = ["alllexxx1 <alekkorpachyov@gmail.com>"]
 readme = "README.md"
 
-
 [tool.poetry.dependencies]
 python = "^3.10"
 pytube = "^15.0.0"
 python-dotenv = "^1.0.0"
 
-
 [tool.poetry.scripts]
 download = "yt_downloader.scripts.download:main"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+black = "^23.12.1"
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
 
 [build-system]
 requires = ["poetry-core"]
