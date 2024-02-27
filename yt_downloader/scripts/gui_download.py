@@ -11,7 +11,7 @@ def main():
         if argv[1]:
             gui_download(download, theme=argv[1])
     except IndexError:
-        print('Theme hasn\'t been specified. By-default theme will be applied')
+        print("Theme hasn't been specified. By-default theme will be applied")
         gui_download(download)
 
 

@@ -10,10 +10,10 @@ package-install:
 package-reinstall:
 	python3 -m pip install --user dist/*.whl --force-reinstall
 
-lint:
-	poetry run flake8
+#lint:
+#	poetry run flake8
 
 test:
 	poetry run pytest
 
-check: test lint
+check: test

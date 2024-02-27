@@ -18,6 +18,7 @@ gui-download = "yt_downloader.scripts.gui_download:main"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.4"
 black = "^23.12.1"
+coverage = "^7.4.3"
 
 [tool.black]
 line-length = 88
