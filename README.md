@@ -1,5 +1,4 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1000&color=F70000&background=FFFFFF00&repeat=false&random=false&width=435&lines=YouTube+downloader)](https://git.io/typing-svg)
-
 ---
 
 ### ⚙ Installation and launch
