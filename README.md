@@ -4,7 +4,7 @@
 ### ⚙ Installation and launch
 
 ```
-$ git clone git@github.com:alllexxx1/python-project-50.git
+$ git clone git@github.com:alllexxx1/yt_downloader.git
 $ cd ./yt_downloader
 $ make install
 
